@@ -1,18 +1,19 @@
 import Link from "next/link";
 import { Button } from "./button";
+import Image, { StaticImageData } from "next/image";
 
 interface Props {
     id: number;
     price: number;
     name: string;
-    img: string;
+    img: StaticImageData;
     imgAlt: string;
 }
 
 export function Card({ id, price, name, img, imgAlt }: Props) {
     return (
         <div className="border rounded-lg overflow-hidden">
-            <img
+            <Image
                 alt={imgAlt}
                 className="w-full h-48 object-cover"
                 height="200"
