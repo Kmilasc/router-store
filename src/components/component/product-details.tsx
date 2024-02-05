@@ -45,7 +45,7 @@ export function ProductDetails({ description, img, imgAlt, otherImgs, name, pric
         <form className="grid gap-4 md:gap-10">
           <div className="grid gap-2">
             <Label className="text-base" htmlFor="quantity">
-              Quantity
+              Quantidade
             </Label>
             <Select defaultValue="1">
               <SelectTrigger className="w-24">
@@ -60,7 +60,7 @@ export function ProductDetails({ description, img, imgAlt, otherImgs, name, pric
               </SelectContent>
             </Select>
           </div>
-          <Button size="lg">Add to cart</Button>
+          <Button size="lg">Adicionar ao carrinho</Button>
         </form>
       </div>
     </div>

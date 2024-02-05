@@ -35,84 +35,84 @@ import conjuntoPijama02 from '../assets/conjuntoPijama02.jpg'
 import conjuntoPijama03 from '../assets/conjuntoPijama03.jpg'
 
 export const products = [
-    { "id": 1, "category": "Eletronicos", "price": 6.374, "name": "Apple iPhone 13 mini (128 GB) - Verde", "img": appleIPhone13, "imgAlt": "iPhone 13 mini",
+    { "id": 1, "category": "Eletrônicos", "price": 6.374, "name": "Apple iPhone 13 mini (128 GB) - Verde", "img": appleIPhone13, "imgAlt": "iPhone 13 mini",
         "description": "Tela Super Retina XDR de 5,4 polegadas",
         "otherImgs": [
             { srOnly: "View Image 1", alt: "iPhone 13 mini", src: appleIPhone1302 },
             { srOnly: "View Image 2", alt: "iPhone 13 mini", src: appleIPhone1303 },
         ] 
     },
-    { "id": 2, "category": "Eletronicos", "price": 797, "name": "Samsung Galaxy A14 128GB 4G Wi-Fi Tela 6.6", "img": samsungGalaxyA1402, "imgAlt": "Samsung Galaxy A14",
+    { "id": 2, "category": "Eletrônicos", "price": 797, "name": "Samsung Galaxy A14 128GB 4G Wi-Fi Tela 6.6", "img": samsungGalaxyA1402, "imgAlt": "Samsung Galaxy A14",
         "description": "Dual Chip 4GB RAM Câmera Tripla de até 50MP + Selfie 13MP Bateria de 5000mAh - Preto",
         "otherImgs": [
             { srOnly: "View Image 1", alt: "Samsung Galaxy A14", src: samsungGalaxyA14 },
             { srOnly: "View Image 2", alt: "Samsung Galaxy A14", src: samsungGalaxyA1403 },
         ] 
     },
-    { "id": 3, "category": "Eletronicos", "price": 6.999, "name": "Smartphone Samsung Galaxy S24", "img": smartphoneSamsungGalaxyS24 , "imgAlt": "Smartphone Samsung Galaxy S24",
+    { "id": 3, "category": "Eletrônicos", "price": 6.999, "name": "Smartphone Samsung Galaxy S24", "img": smartphoneSamsungGalaxyS24 , "imgAlt": "Smartphone Samsung Galaxy S24",
         "description": "Galaxy AI, Tela de 6.7 1-120Hz, 256GB, 12GB RAM, Cinza - Neste Modelo de 256GB você não ganha o dobro da memória pelo mesmo preço",
         "otherImgs": [
             { srOnly: "View Image 1", alt: "Smartphone Samsung Galaxy S24", src: smartphoneSamsungGalaxyS2402 },
             { srOnly: "View Image 2", alt: "Smartphone Samsung Galaxy S24", src: smartphoneSamsungGalaxyS2403 },
         ] 
     },
-    { "id": 4, "category": "Eletronicos", "price": 975, "name": "Smartphone Motorola Moto G53", "img": motorolaMotoE22, "imgAlt": "Smartphone Motorola Moto G53",
+    { "id": 4, "category": "Eletrônicos", "price": 975, "name": "Smartphone Motorola Moto G53", "img": motorolaMotoE22, "imgAlt": "Smartphone Motorola Moto G53",
         "description": "5G 128GB 4GB RAM Prata",
         "otherImgs": [
             { srOnly: "View Image 1", alt: "Smartphone Motorola Moto G53", src: motorolaMotoE2202 },
             { srOnly: "View Image 2", alt: "Smartphone Motorola Moto G53", src: motorolaMotoE2203 },
         ] 
     },
-    { "id": 5, "category": "Books", "price": 56, "name": "Ioga", "img": ioga, "imgAlt": "Livro Ioga",
+    { "id": 5, "category": "Livros", "price": 56, "name": "Ioga", "img": ioga, "imgAlt": "Livro Ioga",
         "description": "Este é um livro sobre ioga e meditação, mas também sobre depressão e terrorismo.",
         "otherImgs": [
             { srOnly: "View Image 1", alt: "Livro Ioga", src: ioga02 },
             { srOnly: "View Image 2", alt: "Livro Ioga", src: ioga02 }
         ] 
     },
-    { "id": 6, "category": "Books", "price": 35, "name": "Operação Família", "img": operaçãoFamília, "imgAlt": "Livro Operação Família",
+    { "id": 6, "category": "Livros", "price": 35, "name": "Operação Família", "img": operaçãoFamília, "imgAlt": "Livro Operação Família",
         "description": "conheça uma história inspiradora sobre relações familiares, segundas chances, amadurecimento e autodescobrimento no novo   de Sarah Morgan.",
         "otherImgs": [
             { srOnly: "View Image 1", alt: "Livro Operação Família", src: operaçãoFamília02 },
             { srOnly: "View Image 2", alt: "Livro Operação Família", src: operaçãoFamília03 },
         ] 
     },
-    { "id": 7, "category": "Books", "price": 38, "name": "Um verão em Paris", "img": umVerãoEmParis, "imgAlt": "Livro Um verão em Paris",
+    { "id": 7, "category": "Livros", "price": 38, "name": "Um verão em Paris", "img": umVerãoEmParis, "imgAlt": "Livro Um verão em Paris",
         "description": "Uma livraria encantadora, duas amigas improváveis e férias que mudarão a vida delas para sempre... ",
         "otherImgs": [
             { srOnly: "View Image 1", alt: "Livro Um verão em Paris", src: umVerãoEmParis02 },
             { srOnly: "View Image 2", alt: "Livro Um verão em Paris", src: umVerãoEmParis03 },
         ] 
     },
-    { "id": 8, "category": "Books", "price": 41, "name": "Férias nos Hamptons: Para Nova York, com Amor Livro 5", "img": feriasNosHamptons, "imgAlt": "Livro Férias nos Hamptons",
+    { "id": 8, "category": "Livros", "price": 41, "name": "Férias nos Hamptons: Para Nova York, com Amor Livro 5", "img": feriasNosHamptons, "imgAlt": "Livro Férias nos Hamptons",
         "description": "Da série best-seller Para Nova York com Amor, de Sarah Morgan, conheça mais um casal que vai derreter o seu coração.",
         "otherImgs": [
             { srOnly: "View Image 1", alt: "Livro Férias nos Hamptons", src: feriasNosHamptons02 },
             { srOnly: "View Image 2", alt: "Livro Férias nos Hamptons", src: feriasNosHamptons03 },
         ] 
     },
-    { "id": 9, "category": "Apparel", "price": 317, "name": "Casaco feminino aquecido com capuz", "img": casacoFeminino, "imgAlt": "Casaco feminino aquecido com capuz",
+    { "id": 9, "category": "Vestuário", "price": 317, "name": "Casaco feminino aquecido com capuz", "img": casacoFeminino, "imgAlt": "Casaco feminino aquecido com capuz",
         "description": "removível de inverno quente casaco casaco vestuário",
         "otherImgs": [
             { srOnly: "View Image 1", alt: "Casaco feminino aquecido com capuz", src: casacoFeminino02 },
             { srOnly: "View Image 2", alt: "Casaco feminino aquecido com capuz", src: casacoFeminino03 },
         ] 
     },
-    { "id": 10, "category": "Apparel", "price": 78, "name": "Kit Frio Conjunto Termico", "img": kitFrio, "imgAlt": "Kit Frio Conjunto Termico",
+    { "id": 10, "category": "Vestuário", "price": 78, "name": "Kit Frio Conjunto Termico", "img": kitFrio, "imgAlt": "Kit Frio Conjunto Termico",
         "description": "Pelinho Elasticidade Segunda Pele Unissex",
         "otherImgs": [
             { srOnly: "View Image 1", alt: "Kit Frio Conjunto Termico", src: kitFrio02 },
             { srOnly: "View Image 2", alt: "Kit Frio Conjunto Termico", src: kitFrio03 },
         ] 
     },
-    { "id": 11, "category": "Apparel", "price": 25, "name": "Camiseta Longline Plus Size Feminina", "img": camisetaLongline, "imgAlt": "Camiseta Longline Plus Size Feminina",
+    { "id": 11, "category": "Vestuário", "price": 25, "name": "Camiseta Longline Plus Size Feminina", "img": camisetaLongline, "imgAlt": "Camiseta Longline Plus Size Feminina",
         "description": "Manga Curta (as2, alpha, xg, plus, Preto)",
         "otherImgs": [
             { srOnly: "View Image 1", alt: "Camiseta Longline Plus Size Feminina", src: camisetaLongline02 },
             { srOnly: "View Image 2", alt: "Camiseta Longline Plus Size Feminina", src: camisetaLongline03 },
         ] 
     },
-    { "id": 12, "category": "Apparel", "price": 130, "name": "Conjunto Pijama Mash", "img": conjuntoPijama, "imgAlt": "Conjunto Pijama Mash                                                               ",
+    { "id": 12, "category": "Vestuário", "price": 130, "name": "Conjunto Pijama Mash", "img": conjuntoPijama, "imgAlt": "Conjunto Pijama Mash                                                               ",
         "description": "Algodão Manga Longa Com Botão Masculino",
         "otherImgs": [
             { srOnly: "View Image 1", alt: "Conjunto Pijama Mash", src: conjuntoPijama },
